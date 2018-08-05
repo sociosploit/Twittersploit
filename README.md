@@ -1,1 +1,3 @@
-See <a href="https://www.sociosploit.com/twitter-remote-access-trojan-twittersploit.html">SocioSploit</a> for documentation.
+# TwitterSploit
+
+See [SocioSploit](https://www.sociosploit.com/twitter-remote-access-trojan-twittersploit.html) for documentation.
